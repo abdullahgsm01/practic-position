@@ -120,17 +120,16 @@
       position: relative;
 }
 .one {
-	position: absolute;
-	top: 28%;
-	left: 21%;
-}
+      position: absolute;
+      top: 31%;
+      left: 20%;
+  }
 .tow {
 	position: absolute;
 	top: 6%;
 	left: 32%;
 }
 .three {
-	position: ;
 	position: absolute;
 	top: 28%;
 	left: 70%;
