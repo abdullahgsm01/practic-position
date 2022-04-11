@@ -1,0 +1,157 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+.menu{
+      background: #34495e;
+      padding: 60px 0 120px 0;
+}
+.menu ul{
+      text-align: center;
+}
+.menu ul li{
+      display: inline-block;
+      padding: 15px;
+}
+.menu ul li a{
+      background: #e67e22;
+      color: #34495e;
+      padding: 10px;
+      text-decoration: none;
+}
+.menu ul li a:hover{
+      color: #2165a8;
+}
+.menu span {
+	height: 35px;
+	width: 5px;
+	background-color: #fff;
+	display: block;
+	margin: auto;
+}
+.menu p{
+      font-size: 25px;
+      color: #e67e22;
+}
+.service-section{
+      background-color: #e1e1e1;
+      padding: 50px 0 30px 0;
+}
+.service-title{
+      text-align: center;
+}
+.service-title h1 {
+	color: #3c523c;
+	font-size: 60px;
+	border-bottom: 3px dashed;
+	font-weight: 700;
+	border-width: 5px;
+}
+.service-item{
+      background: #eee7e7;
+      border-radius: 30px;
+      box-shadow: 0 3px 13px 0;
+      width: 100%;
+      min-height: 340px;
+      text-align: center;
+      padding: 30px 15px;
+}
+.service-item i{
+      color: #3c5e3c;
+      font-size:60px;
+}
+.service-item h2{
+      color:#632626;
+      padding: 10px 0;
+}
+.service-item p{
+      color:#632626;
+}
+.img-area{
+      height:130px;
+      width:130px;
+      border:5px solid #e67e22;
+      border-radius: 50%;
+      position: relative;
+      margin-top: 90px;
+      margin-bottom: 18px;
+}
+.img-area img{
+      width:100%;
+      border-radius: 50%;
+      display: inline-block;
+}
+.img-text {
+	position: absolute;
+	top:0;
+	left: 0;
+      height: 100%;
+      width: 100%;
+      background-color: rgba(154, 233, 147, .5);
+      border-radius: 50%;
+      text-align: center;
+      opacity:0;
+      visibility: hidden;
+      transition: all 0.5s;
+}
+.text-wraper {
+	padding-top: 60px;
+}
+.img-area:hover .img-text{
+      visibility: visible;
+      opacity: 1;
+}
+.text-wraper p {
+	color: #632626;
+	margin: 0;
+}
+.login-section{
+      background: #9b59b6;
+}
+.round-border{
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      background-color: #34495e;
+      border:4px dotted #e77e21;
+}
+.contact-section{
+      position: relative;
+}
+.one {
+	position: absolute;
+	top: 28%;
+	left: 21%;
+}
+.tow {
+	position: absolute;
+	top: 6%;
+	left: 32%;
+}
+.three {
+	position: ;
+	position: absolute;
+	top: 28%;
+	left: 70%;
+}
+.four {
+	position: absolute;
+	top: 6%;
+	left: 57%;
+}
+.contact-form input{
+      border: 3px solid #ddd;
+      border-radius:30px;
+      padding:5px 10px;
+}
+.contact-form input:last-child {
+	background: transparent;
+	border: 2px solid #522a42;
+	color: #fff;
+	font-weight: bold;
+	padding: 5px 20px;
+}
+footer{
+      background:#2c3e50;
+}
